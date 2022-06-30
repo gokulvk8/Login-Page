@@ -1,0 +1,44 @@
+body{
+	font-family: sans-serif;
+	text-align: center;
+	background: skyblue;
+	background-size: cover;
+}
+h2{
+	color: green;
+	font-weight: 1000;
+	text-transform: uppercase;
+    margin: 100px auto;
+  
+}
+.g{
+	width: 300px;
+	padding: 30px;
+	font-size: 20px;
+	position: absolute;
+	top: 30%;
+	left:  37%;
+    background: #f7f76b;
+    text-align: center;
+	
+}
+.g input[type="text"], .g input[type="password"]{
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #0367fd;
+    border-radius: 24px;
+    padding: 14px 10px;
+    width: 220px;
+}
+.g input[type="submit"]{
+	display: block;
+	margin: 10px auto;
+	text-align: center;
+	border: 3px solid #ffc400ec;
+    border-radius: 24px;
+    padding: 14px 10px;
+    width: 120px;
+    cursor: pointer;
+    background: rgb(123, 214, 123);
+}
